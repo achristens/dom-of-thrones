@@ -28,14 +28,42 @@ function scene3() {
   dany.style.top = 0
   dress.style.position = 'absolute'
   dress.style.bottom = 0
-  danyContainer.style.height = '36%'
+  danyContainer.style.height = '38%'
   danyContainer.style.top = '50%'
-danyContainer.style.left = '25%'
+  danyContainer.style.left = '25%'
+
   // Character 2
+  drogoContainer = document.createElement('div')
+  stage.append(drogoContainer)
+  drogoContainer.style.position = 'absolute'
+  drogoContainer.style.width = '10%'
+  drogoContainer.style.height = '20%'
+  drogoContainer.style.top = '50%'
+  drogoContainer.style.left = '50%'
+  drogo = document.querySelector('#drogo')
+  drogoContainer.append(drogo)
+  khal = document.querySelector('#bulky-man')
+  drogoContainer.append(khal)
+  drogoContainer.style.height = '45%'
+  drogo.style.width = '67%'
+  drogo.style.position = 'absolute'
+  drogo.style.top = 0
+  drogo.style.left = '13%'
+  khal.style.position = 'absolute'
+  khal.style.bottom = 0
+  drogoContainer.style.height = '37%'
+  drogoContainer.style.top = '45%'
+  drogoContainer.style.left = '65%'
 
   // Setup Props
+  egg = document.querySelector('#egg')
 
   // Prop 1
+  stage.append(egg)
+  egg.style.position = 'absolute'
+  egg.style.height = '15%'
+  egg.style.top = '65%'
+  egg.style.left = '30%'
 
   // Prop 2
 

@@ -10,6 +10,8 @@ function scene2() {
   stageImg.setAttribute('src', castleImgSrc)
 
   // Setup Cast
+
+  // Character 1
   nedContainer = document.createElement('div')
   stage.append(nedContainer)
   nedContainer.style.position = 'absolute'
@@ -25,8 +27,8 @@ function scene2() {
   leather = document.querySelector('#leather-armour')
   nedContainer.append(leather)
   // Just for setup:
-  ned.style.border = '2px solid blue'
-  leather.style.border = '2px solid green'
+  // ned.style.border = '2px solid blue'
+  // leather.style.border = '2px solid green'
   nedContainer.style.height = '44%'
   ned.style.width = '70%'
   ned.style.position = 'absolute'
@@ -42,11 +44,19 @@ function scene2() {
   // leather.style.border = 'none'
   // nedContainer.style.border = 'none'
   // nedContainer.style.background = 'none'
-  
-  // Character 1
 
   // Character 2
-
+  joffCOntainer = document.createElement('div')
+  stage.append(joffCOntainer)
+  joffCOntainer.style.position = 'absolute'
+  joffCOntainer.style.width = '10%'
+  joffCOntainer.style.height = '20%'
+  joffCOntainer.style.top = '50%'
+  joffCOntainer.style.left = '50%'
+  joffrey = document.querySelector('#joffrey')
+  joffCOntainer.append(joffrey)
+  king = document.querySelector('#king')
+  joffCOntainer.append(king)
   // Setup Props
 
   // Prop 1

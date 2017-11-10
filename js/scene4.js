@@ -45,18 +45,25 @@ function scene4() {
   furs = document.querySelector("#furs")
   jonContainer.append(furs)
   jonContainer.style.height = '45%'
-  jon.style.width = '65%'
+  jon.style.width = '60%'
   jon.style.position = 'absolute'
   jon.style.top = 0;
+  jon.style.left = '20%'
+
   furs.style.position = 'absolute'
   furs.style.bottom = 0;
-  jonContainer.style.height = '36%'
+  jonContainer.style.height = '37%'
   jonContainer.style.top = '45%'
   jonContainer.style.left = '60%'
 
   // Setup Props
-
+  wolf = document.querySelector('#map-marker')
   // Prop 1
+  stage.append(wolf)
+  wolf.style.position = 'absolute'
+  wolf.style.top = '50%'
+  wolf.style.height = '15%'
+  wolf.style.left = '85%'
 
   // Prop 2
 

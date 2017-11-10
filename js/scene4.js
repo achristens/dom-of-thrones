@@ -33,6 +33,26 @@ function scene4() {
   robContainer.style.left = '25%'
 
   // Character 2
+  jonContainer = document.createElement('div')
+  stage.append(jonContainer)
+  jonContainer.style.position = 'absolute'
+  jonContainer.style.width = '10%'
+  jonContainer.style.height = '20%'
+  jonContainer.style.top = '50%'
+  jonContainer.style.left = '50%'
+  jon = document.querySelector('#jon')
+  jonContainer.append(jon)
+  furs = document.querySelector("#furs")
+  jonContainer.append(furs)
+  jonContainer.style.height = '45%'
+  jon.style.width = '65%'
+  jon.style.position = 'absolute'
+  jon.style.top = 0;
+  furs.style.position = 'absolute'
+  furs.style.bottom = 0;
+  jonContainer.style.height = '36%'
+  jonContainer.style.top = '45%'
+  jonContainer.style.left = '60%'
 
   // Setup Props
 

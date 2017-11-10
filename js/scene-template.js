@@ -1,4 +1,5 @@
 function scene<scene_number>() {
+  console.log('Executing scene 2!')
 
   // Setup Stage
 

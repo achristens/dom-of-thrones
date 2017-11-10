@@ -72,13 +72,35 @@ function scene3() {
   // Stage direction 1
 
   frame(function() {
+    egg.style.top = '60%'
+    egg.style.left = '32%'
+    egg.style.transform ='rotateZ(220deg)'
+  })
 
+  frame(function() {
+    egg.style.top = '55%'
+    egg.style.left = '40%'
+    egg.style.transform ='rotateZ(140deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '50%'
+    egg.style.left = '50%'
+    egg.style.transform ='rotateZ(140deg)'
+  })
+
+  frame(function() {
+    egg.style.top = '55%'
+    egg.style.left = '60%'
+    egg.style.transform ='rotateZ(180deg)'
   })
 
   // Stage direction 2
 
   frame(function() {
-
+    egg.style.top = '60%'
+    egg.style.left = '70%'
+    egg.style.transform ='rotateZ(0deg)'
   })
 
 }

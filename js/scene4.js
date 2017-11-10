@@ -72,13 +72,47 @@ function scene4() {
   // Stage direction 1
 
   frame(function() {
-
+    robContainer.style.top = '45%'
+    robContainer.style.left = '20%'
+    jonContainer.style.top = '55%'
+    wolf.style.left = '80%'
   })
 
-  // Stage direction 2
 
   frame(function() {
-
+    robContainer.style.top = '50%'
+    robContainer.style.left = '25%'
+    jonContainer.style.top = '45%'
+    wolf.style.left = '85%'
   })
+  frame(function() {
+    robContainer.style.top = '45%'
+    robContainer.style.left = '20%'
+    jonContainer.style.top = '55%'
+    wolf.style.left = '80%'
+  })
+
+
+  frame(function() {
+    robContainer.style.top = '50%'
+    robContainer.style.left = '25%'
+    jonContainer.style.top = '45%'
+    wolf.style.left = '85%'
+  })
+  frame(function() {
+    robContainer.style.top = '45%'
+    robContainer.style.left = '20%'
+    jonContainer.style.top = '55%'
+    wolf.style.left = '80%'
+  })
+
+
+  frame(function() {
+    robContainer.style.top = '50%'
+    robContainer.style.left = '25%'
+    jonContainer.style.top = '45%'
+    wolf.style.left = '85%'
+  })
+
 
 }
